@@ -576,18 +576,22 @@ video {
   margin-bottom: 4rem;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .mb-8{
@@ -624,10 +628,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
 }
 
 .block{
@@ -678,6 +678,10 @@ video {
   height: 1px;
 }
 
+.h-40{
+  height: 10rem;
+}
+
 .w-1{
   width: 0.25rem;
 }
@@ -692,6 +696,22 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[500px\]{
+  width: 500px;
+}
+
+.w-\[800px\]{
+  width: 800px;
+}
+
+.w-\[400px\]{
+  width: 400px;
 }
 
 .flex-1{
@@ -821,6 +841,11 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-gray-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(190 12 24 / var(--tw-bg-opacity));
@@ -829,11 +854,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-gray-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -881,6 +901,10 @@ video {
      object-fit: scale-down;
 }
 
+.p-16{
+  padding: 4rem;
+}
+
 .p-32{
   padding: 8rem;
 }
@@ -897,8 +921,9 @@ video {
   padding: 2rem;
 }
 
-.p-16{
-  padding: 4rem;
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .px-32{
@@ -909,6 +934,11 @@ video {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-2{
@@ -926,19 +956,19 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .text-left{
