@@ -1,0 +1,21 @@
+{
+	"name": "origamidrive",
+	"version": "1.0.0",
+	"description": "",
+	"main": "asd.js",
+	"scripts": {
+		"build": "npx tailwindcss -i ./input.css -o ./output.css",
+		"watch": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+	},
+	"keywords": [],
+	"author": "John Karlos De Guzman",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.3.5"
+	},
+	"dependencies": {
+		"apexcharts": "^3.44.1",
+		"flowbite": "^2.2.0",
+		"flowbite-datepicker": "^1.2.4"
+	}
+}
